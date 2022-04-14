@@ -1,0 +1,1 @@
+Mixin adalah kumpulan style yg dapat kita gunkan berulang-ulang

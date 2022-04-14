@@ -1,0 +1,6 @@
+Flow control = mengatur alur kendali dari script SASS
+
+@if, $else, @else if
+@for
+@while
+@each

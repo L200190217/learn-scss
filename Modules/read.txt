@@ -1,0 +1,6 @@
+Modules = membuat code sass kita modular / musdah untuk dikelola 
+
+@import & @use
+
+terminal:
+sass Modules/scss/main.scss Modules/scss/main.css

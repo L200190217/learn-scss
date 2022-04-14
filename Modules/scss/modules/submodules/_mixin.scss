@@ -1,0 +1,17 @@
+@mixin inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+    }
+}
+
+@mixin flex-box($direction:row, $space:center) {
+    //$direction:row = default ke row
+    display: flex;
+    justify-content: $space; //sejajar horizontal
+    align-items: center; //sejajar secara vertikal
+    flex-direction: $direction; //untuk membalik box 321 atau 123
+}

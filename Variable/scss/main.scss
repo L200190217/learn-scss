@@ -1,0 +1,64 @@
+// CSS Variable
+
+// :root {
+//     //semua element yg ada di html mempunyai akses ke sini
+//     --primary-color: #f4f1de;
+//     --secondary-color: #f2cc8f;
+//     --text-color: #e07a5f;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+// p {
+//     color: var(--text-color);
+// }
+
+
+
+// SASS Variable
+// $primary-color: #f4f1de; //variable global
+// $secondary-color: #f2cc8f;
+// $text-color: #e07a5f;
+
+// body {
+//     $primary-color2: #1360a09d; //variable lokal
+//     $primary-color3: #3ba013 !global; //variable global
+//     background-color: $primary-color2;
+// }
+
+// h1 {
+//     color: $primary-color3;
+// }
+
+
+
+// $text-color1: #e07a5f;
+
+// body {
+//     // $text-color1: #b1ccaeee;
+//     $text-color1: #b1ccaeee !global; //buat menimpa variable global yg di atas
+//     background-color: $text-color1;
+// }
+
+// h1 {
+//     color: $text-color1;
+// }
+
+
+
+//Map
+
+$alert: ('danger' : red,
+    'success' : green,
+    'warning' : orange,
+);
+
+h1 {
+    color: map-get($alert, 'success');
+}
